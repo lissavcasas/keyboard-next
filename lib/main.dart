@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Demo Action Next',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -30,7 +30,6 @@ class _MyHomePageState extends State<MyHomePage> {
   final FocusNode _emailFocusNode = FocusNode();
   final FocusNode _passwordFocusNode = FocusNode();
 
- 
   @override
   void dispose() {
     // Clean up the focus node when the Form is disposed.
